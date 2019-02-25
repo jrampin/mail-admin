@@ -1,3 +1,6 @@
-django==2.1.5
+wheel
+setuptools
+uwsgi
+django>=2.1.5,<2.2.0
 passlib
 mysqlclient
