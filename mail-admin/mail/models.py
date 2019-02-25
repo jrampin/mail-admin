@@ -21,7 +21,7 @@ class Domain(models.Model):
 #
 class Alias(models.Model):
     domain = models.ForeignKey('Domain', on_delete=models.CASCADE)
-    source =  models.EmailField(max_length=100)
+    source =  models.CharField(max_length=100)
     destination =  models.EmailField(max_length=100)
 
     class Meta:
