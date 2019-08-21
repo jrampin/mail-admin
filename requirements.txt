@@ -1,6 +1,6 @@
 wheel
 setuptools
 uwsgi
-django>=2.1.5,<2.2.0
+django>=2.1.5
 passlib
 mysqlclient
